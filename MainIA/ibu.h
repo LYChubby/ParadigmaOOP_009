@@ -7,11 +7,11 @@ public:
 	vector<anak*> daftar_anak;
 
 	ibu(string pNama) :nama(pNama) {
-		cout << "Ibu \n"" << nama << "\" Ada\n";
+		cout << "Ibu \"" << nama << "\" Ada\n";
 	}
 
 	~ibu() {
-		cout << "Ibu \"" << nama << "\" Tidak Ada\";
+		cout << "Ibu \"" << nama << "\" Tidak Ada\n";
 	}
 
 	void tambahAnak(anak*);
